@@ -141,6 +141,15 @@ settlements --steps creators \
   --publisher-ids 3cdd2edc-b613-48a9-b3bb-d6e087344687 f1e15b41-ab2d-4ba3-b7a4-88aadc59a2af
 ```
 
+### Refunds via refund spreadsheet
+
+Refund spreadsheet: https://docs.google.com/spreadsheets/d/1alU12sxJ7b76cm47MV9VSQyZsgtGogZ1pENDTniKoeM/edit#gid=0
+
+1. Ensure sheet1 only has refunds that were not executed
+2. File -> Download -> Comma separated values (csv), save as `refunds.csv`
+3. Run `refund.py` in the same directory as `refunds.csv`
+4. Upload `grants.csv` in thread and ask someone with prod db access to sanity check and insert claims ( just like how it's done for ad claims )
+
 ### Bitflyer settlements
 
 See [Bitflyer Settlement](<Bitflyer_Settlement.md>)
