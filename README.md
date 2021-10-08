@@ -143,8 +143,6 @@ settlements --steps creators \
 
 ### Refunds via refund spreadsheet
 
-Refund spreadsheet: https://docs.google.com/spreadsheets/d/1alU12sxJ7b76cm47MV9VSQyZsgtGogZ1pENDTniKoeM/edit#gid=0
-
 1. Ensure sheet1 only has refunds that were not executed
 2. File -> Download -> Comma separated values (csv), save as `refunds.csv`
 3. Run `refund.py` in the same directory as `refunds.csv`
